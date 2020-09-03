@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+.nav-link {
+    color: aliceblue;
+    margin-right: 50px;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.7s;
+}
+
+header .card img.brujula {
+    position: absolute;
+    top: 28%;
+    right: 47%;
+    align-content: center;
+    justify-content: center
+}
+
+header .card h1 {
+    color: #e8f00c;
+    top: 40%;
+    right: 45%;
+    position: absolute;
+}
+
+header .card p {
+    top: 45%;
+    right: 31%;
+    position: absolute;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+header .card button.btn {
+    color: darkslategrey;
+    border-color: #e8f00c;
+    background-color: #e8f00c;
+    position: absolute;
+    top: 56%;
+    right: 47%;
+    text-align: center;
+    justify-content: center
+}
+
+
+/* planes */
+
+#planes {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    margin-bottom: 70px;
+}
+
+#planes .col-md-3 {
+    margin: 40px;
+}
+
+
+/* destino */
+
+#destino .card h1 {
+    color: #e8f00c;
+    position: absolute;
+    top: 4%;
+    right: 45%;
+}
+
+#destino .card img.cartagena {
+    position: absolute;
+    top: 17%;
+    right: 62%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card p.cartagena {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    right: 68%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card img.barranquilla {
+    position: absolute;
+    top: 17%;
+    right: 20%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card p.barranquilla {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 48%;
+    right: 25%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card img.llanos {
+    position: absolute;
+    top: 57%;
+    right: 62%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card p.llanos {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    right: 63%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card img.laguajira {
+    position: absolute;
+    top: 57%;
+    right: 20%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .card p.laguajira {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    right: 25%;
+    align-content: center;
+    justify-content: center
+}
+
+#destino .row {
+    display: none;
+}
+
+#contacto {
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: 0mm;
+    background: #e8f00c;
+}
+
+#contacto h2 {
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+#contacto p {
+    font-size: 20px;
+}
+
+#contacto .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto form button {
+    background-color: #000000;
+    opacity: 0.5;
+    border-radius: 10%;
+    padding: 7px 9px;
+    margin-bottom: 150px;
+}
+
+#contacto form .form-control {
+    padding: 0.375rem 4.75rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer .container p {
+    font-size: 23px;
+    color: #ffffff;
+    padding-top: 120px;
+    text-align: center;
+}
+
+
+/* telefono */
+
+@media screen and (max-width:500px) and (min-width:320px) {
+    header .card h1 {
+        display: none;
+    }
+    header .card p {
+        display: none;
+    }
+    header .card img.brujula {
+        display: none;
+    }
+    #destino .card {
+        display: none
+    }
+    #destino .row {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+
+/* tablet */
+
+@media screen and (max-width:1023px) and (min-width:501px) {
+    header .card h1 {
+        display: none;
+    }
+    header .card p {
+        display: none;
+    }
+    header .card img.brujula {
+        display: none;
+    }
+    #destino .card {
+        display: none
+    }
+    #destino .row {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+    #planes {
+        float: right;
+    }
+}
